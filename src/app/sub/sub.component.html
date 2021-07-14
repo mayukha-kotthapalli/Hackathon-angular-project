@@ -1,0 +1,52 @@
+<div class="mainPage">
+<header>
+    <h1>HACKATHONS</h1>
+    <button (click)="test()">admin</button>
+  </header>
+  <div class="container">
+    <div class="container-content">
+    <h1>Be a part of hackathon league</h1>
+    <h2>win prizes upto $100</h2>
+    </div>
+  </div>
+</div>
+<div class="mid-headings">
+  <h3>Hackathons for you!</h3>
+  <p>*all attendees must pre register</p>
+</div>
+  <div class="events-list">
+    <ul>
+      <li *ngFor="let e of events">
+        <div class="event-details">
+          <h1>{{e.n}} <span><i class="fas fa-trophy"></i></span></h1>
+          <p>Deadline : {{e.deadline}}</p>
+          <p><strong>{{e.prizes}}</strong> in prizes</p>
+          <p><span><i class="fas fa-globe"></i></span>  {{e.mode}}</p>
+          <button (click)="question(e.que)" class="compete" >Register</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- <app-sub5 childMess="{{prentMess}}" condition='{{bool}}'></app-sub5> -->
+  <footer>
+    <div class="contactdetails">
+      <ul>
+        <li><strong>Phone</strong> 1800 555 666</li>
+        <li><strong>Email</strong>example@xxxx.com</li>
+        <li><strong>Address</strong></li>
+      </ul>
+    </div>
+    <div class="social-media">
+      <p>follow us on</p>
+      <div class="icons">
+      <i class="fab fa-facebook fa-fw"> </i>
+      <i class="fab fa-twitter-square fa-fw"></i>
+      <i class="fab fa-instagram fa-fw"></i>
+      <i class="fab fa-github fa-fw"></i>
+      <i class="fab fa-discord fa-fw"></i>
+    </div>
+    </div>
+  </footer>
+
+
+

@@ -1,0 +1,116 @@
+.mainPage{
+    background-image: url('../../slide_one.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover ;
+    height: 100%;
+    
+}
+header{
+    display: flex;
+    background-color:transparent;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: rgba(36, 36, 190, 0.829);
+}
+header h1{
+    position: relative;
+    left:90px;
+    font:xx-large;
+}
+header button{
+    font-size: 19px;
+    border-radius: 12px;
+    border: none;
+    padding: 1px 12px;
+    margin: 18px 16px;
+    background-color: transparent;
+    font-weight: 700;
+    color: rgba(36, 36, 190, 0.829);
+    
+}
+header button:hover{
+    color: rgb(252, 164, 1);
+    background: transparent;
+}
+.container-content{
+    position: relative;
+    left: 0px;
+    bottom:80px;
+    color:rgba(65, 62, 62, 0.897);
+    font-family: system-ui;
+}
+.container{
+    background: transparent;
+    height: 340px;
+    padding: 90px; 
+}
+.mid-headings{
+    text-align: center;
+    padding: 30px;
+}
+.mid-headings h3{
+    color:rgb(107, 105, 105);
+    font-size: 60px;
+}
+.event-details{
+    display: block;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.event-details h1 i{
+    color:rgb(160, 159, 159);
+}
+.events-list{
+    
+    background-color: gray;
+} 
+li{
+    background-color: white;
+}
+.compete{
+    font-family: monospace;
+    font-size: x-large;
+    padding: 13px 11px;
+    color: orange;
+    background-color: pink;
+    border: none;
+}
+.compete:hover{
+    color: gray;
+    background: transparent;
+}
+.event-details h1{
+    border-bottom-style: dotted;
+    border-width: thick;
+    color: orange;
+    border-color: black;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    padding: 10px 70px;
+    justify-content: space-around;
+    grid-template-columns: 200px 200px 200px;
+    gap: 3rem;
+}
+footer{
+    display: flex;
+    background-color: rgb(202, 201, 201);
+    justify-content: space-around;
+}
+.contactdetails{
+    display: block;
+}
+.contactdetails ul{
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+.contactdetails li{
+    background-color: rgb(202, 201, 201);
+    
+}
+.icons{
+    gap: 0.5px;
+}

@@ -1,0 +1,38 @@
+.event-details{
+    display: block;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.events-list{
+    
+    background-color: gray;
+} 
+li{
+    background-color: white;
+}
+.event-details h1{
+    border-bottom-style: dotted;
+    border-width: thick;
+    color: orange;
+    border-color: black;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    padding: 10px 70px;
+    justify-content: space-around;
+    grid-template-columns: 200px 200px 200px;
+    gap: 3rem;
+}
+.compete{
+    font-family: monospace;
+    font-size: x-large;
+    padding: 13px 11px;
+    color: orange;
+    background-color: pink;
+    border: none;
+}
+.compete:hover{
+    color: gray;
+    background: transparent;
+}

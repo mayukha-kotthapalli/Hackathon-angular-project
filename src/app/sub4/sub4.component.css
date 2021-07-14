@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    background-color:rgb(11, 212, 128);
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: rgb(252, 164, 1);
+}
+header h1{
+    position: relative;
+    left:90px;
+    font:xx-large;
+}
+body{
+    color:black;
+    background-color: rgb(216, 216, 216);
+    margin: 0;
+    width: 100%;
+}
+div.Question{
+    padding: 30px;
+    font-family: cursive;
+    color: black;
+}
